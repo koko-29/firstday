@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GlowCare Cosmetics | Products</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f4f8;
+        }
+
+        /* Header */
+        header {
+            background-color: #ff7aa2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Back button */
+        .back-btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 25px;
+            background-color: #ff9db8;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .back-btn:hover {
+            background-color: #ff4d88;
+        }
+
+        /* Product section */
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .product-card {
+            background-color: white;
+            width: 250px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 15px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .price {
+            font-size: 18px;
+            color: #ff4d88;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ff7aa2;
+            color: white;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #ff4d88;
+        }
+
+        footer {
+            background-color: #ff7aa2;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Products</h1>
+    <p>Premium skincare & fragrances</p>
+</header>
+
+<!-- Back button -->
+<a href="javascript:history.back()" class="back-btn">← Back</a>
+
+<div class="container">
+
+    <div class="product-card">
+        <img src="sunscreen.jpeg" alt="Sunscreen">
+        <h3>SPF 50 Sunscreen</h3>
+        <p class="price">₹499</p>
+        <a href="#" class="btn">Add to Cart</a>
+    </div>
+
+    <div class="product-card">
+        <img src="moia.jpeg" alt="Face Cream">
+        <h3>Moisturizing Cream</h3>
+        <p class="price">₹399</p>
+        <a href="#" class="btn">Add to Cart</a>
+    </div>
+
+    <div class="product-card">
+        <img src="perfume.jpeg" alt="Perfume">
+        <h3>Luxury Perfume</h3>
+        <p class="price">₹999</p>
+        <a href="#" class="btn">Add to Cart</a>
+    </div>
+
+    <div class="product-card">
+        <img src="night.jpeg" alt="Night Cream">
+        <h3>Night Repair Cream</h3>
+        <p class="price">₹599</p>
+        <a href="#" class="btn">Add to Cart</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 GlowCare Cosmetics | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
